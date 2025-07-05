@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest{
 		LoginPage loginPage = new LoginPage(driver);
 		
 		
-		loginPage.enterUsername("admin@yourstore.com");
+		loginPage.enterUsername(" ");
 		loginPage.enterPassword("admin");
 		loginPage.checkCheckbox();
 		loginPage.enterLoginButton();
